@@ -49,7 +49,7 @@ public class RegisterServlet extends HttpServlet {
             
 	        if(boo.equals("reg")) {
 	            
-	            RequestDispatcher rd = request.getRequestDispatcher("regcon.jsp");
+	            RequestDispatcher rd = request.getRequestDispatcher("a/regcon.jsp");
 	              rd.forward(request, response);
 	              
 	        }else if(boo.equals("con")){

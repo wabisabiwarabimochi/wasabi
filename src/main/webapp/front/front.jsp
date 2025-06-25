@@ -14,7 +14,6 @@
 	<a href="../ShowTableServlet?paramName=value">仕入れ先TBL</a>
 
 	<a href="/a/UpdatePassEmp.jsp">管理者のパスワード変更</a>
-	<a href="test.jsp">テスト</a>
 	<a href="a/UpdatePassEmp.jsp">従業員のパスワード変更</a>
 
 </body>

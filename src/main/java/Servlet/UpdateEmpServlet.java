@@ -31,6 +31,7 @@ public class UpdateEmpServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String empid = request.getParameter("empid");
         String boo = request.getParameter("boo");
+        String role = request.getParameter("role");
         String id = request.getParameter("id");
         
         UpdateEmpDAO UED = new UpdateEmpDAO();
@@ -44,7 +45,11 @@ try {
 	              
 	        }else if(boo.equals("pass")){
 	        	String emppasswd = request.getParameter("emppasswd");
-	        	UED.UpdateEmpPass(id, emppasswd);
+	        	if(role.equals("admin")) {
+	        		UED.UpdateEmpPass(empid, emppasswd);
+	        	}else if(role.equals("employee")) {
+	        		UED.UpdateEmpPass(id, emppasswd);
+	        	}	        	
 	        }
 	        
 	        }catch(Exception e){

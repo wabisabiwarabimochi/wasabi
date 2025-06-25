@@ -16,6 +16,7 @@
 			<option value="0">ロール０</option>
 			<option value="1">ロール１</option>
 			<option value="2">ロール２</option>
+			<option value="3">ロール３</option>
 		</select>
 		 <input type="hidden" name="boo" value="reg" />
 		  <input type="submit" value="登録">
