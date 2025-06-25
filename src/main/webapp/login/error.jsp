@@ -9,6 +9,6 @@
 <body>
 	<h1>エラー画面</h1>
 	（ログインできませんでした。）<br>
-	<a href="login.jsp">戻る</a>
+	<a href="login/login.jsp">戻る</a>
 </body>
 </html>

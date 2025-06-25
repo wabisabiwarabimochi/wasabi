@@ -10,9 +10,9 @@
 	<h1>アドミニ画面</h1>
 	<a href="../ShowTableServlet?paramName=value">仕入れ先TBL</a>
 
-	<a href="../a/UpdatePassEmp.jsp">管理者のパスワード変更</a>
-	<a href="../a/UpdatePassEmp.jsp">従業員の氏名変更</a>
-	<a href="../a/UpdatePassEmp.jsp">従業員のパスワード変更</a>
+	<a href="./a/UpdatePassEmp.jsp">管理者のパスワード変更</a>
+	<a href="./a/UpdatePassEmp.jsp">従業員の氏名変更</a>
+	<a href="./a/UpdatePassEmp.jsp">従業員のパスワード変更</a>
 
 
 </body>

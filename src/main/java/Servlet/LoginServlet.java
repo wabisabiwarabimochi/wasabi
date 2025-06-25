@@ -60,8 +60,6 @@ public class LoginServlet extends HttpServlet {
 	    }else if(role==99) {//エラー
 	    	RequestDispatcher dispatch = request.getRequestDispatcher("login/error.jsp");
 	 	    dispatch.forward(request, response);
-	    }
-	    
+	    } 
 	}
-
 }
